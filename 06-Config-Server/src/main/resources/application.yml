@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 06-Config-Server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/farhan1599/configuration-properties.git
+server:
+  port: 9091

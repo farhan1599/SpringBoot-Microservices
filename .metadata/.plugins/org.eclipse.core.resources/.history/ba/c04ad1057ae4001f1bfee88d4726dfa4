@@ -1,0 +1,9 @@
+spring.application.name=10-Application_Properties-Demo
+
+
+app.messages.greet_msg=Good Morning
+app.messages.welcome_msg= Welcome to spring boot
+app.messages.login_error=Invalid Credentials
+app.messages.register_error=Registration Failed
+app.messages.register_success=Registration Successful
+app.messages.register_dup_email=Duplicate Email Found

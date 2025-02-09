@@ -1,0 +1,27 @@
+package com.springboot.microservices.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DataRestContoller {
+
+//==============================main logic====================================
+
+	@GetMapping("/data")
+	public String getDataFromRedis() {
+		System.out.println("***redis() method called***");
+		// TODO:logic to fetch data from redis server
+		int i = 10 / 0; // ArithmeticException
+		return "Retrieved Data From Redis";
+
+	}
+	
+//=======================Fallback logic====================================
+	
+	public String getDataFromDB() {
+		System.out.println("*** db() method called.. ***");
+		return "Retrieved Data From Database";
+	}
+
+}

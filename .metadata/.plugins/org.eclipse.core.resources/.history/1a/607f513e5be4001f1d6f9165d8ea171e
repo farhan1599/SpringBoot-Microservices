@@ -1,0 +1,5 @@
+package com.springboot.properties;
+
+public class AppProps {
+
+}

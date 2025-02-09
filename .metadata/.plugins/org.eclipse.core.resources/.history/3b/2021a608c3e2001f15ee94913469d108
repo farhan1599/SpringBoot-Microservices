@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 09-Circuit_Breaker-DesignPattern
