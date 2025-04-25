@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: 08-Config-Client-2
-  config:
-    import: optional:configserver:http://localhost:9091

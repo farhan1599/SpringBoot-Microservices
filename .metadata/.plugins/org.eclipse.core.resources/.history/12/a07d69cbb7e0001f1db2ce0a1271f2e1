@@ -1,5 +1,0 @@
-package com.springboot.microservices.filter;
-
-public class MyFilter {
-
-}

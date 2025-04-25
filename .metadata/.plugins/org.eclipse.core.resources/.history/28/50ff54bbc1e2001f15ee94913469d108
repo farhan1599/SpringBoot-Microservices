@@ -1,5 +1,0 @@
-package com.springboot.microservices.rest;
-
-public class DataRestContoller {
-
-}

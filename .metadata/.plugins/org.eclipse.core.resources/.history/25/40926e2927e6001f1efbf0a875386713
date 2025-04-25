@@ -1,3 +1,0 @@
-spring.application.name=13-Kafka_Consumer-demo
-
-server.port=8081
